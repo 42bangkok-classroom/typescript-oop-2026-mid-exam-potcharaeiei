@@ -2,7 +2,7 @@ export {};
 const arg = process.argv[2];
 const n = Number(arg);
 if (arg === undefined || Number.isNaN(n) || n <= 0) {
-    console.log("Invalid Input");
+    console.log("Invalid input");
 }else{
 for (let i = 1; i <= n; i++) {
   
